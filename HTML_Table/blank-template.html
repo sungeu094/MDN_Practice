@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Table template</h1>
+      <table>
+        <caption>
+          Data about the planets of our solar system(Planetary facts taken from 
+          <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
+        <thead>
+          <colgroup>
+            <col span="2">
+            <col style="border: 3px solid black;">
+          </colgroup>
+          <tr>
+            <th colspan="2"></th>
+            <th id="name" scope="col">Name</th>
+            <th id="mass" scope="col">Mass(10<sup>24</sup>kg)</th>
+            <th id="diameter" scope="col">Diameter(km)</th>
+            <th id="density" scope="col">Density(kg/m<sup>3</sup>)</th>
+            <th id="gravity" scope="col">Gravity(m/s<sup>2</sup>)</th>
+            <th id="length" scope="col">Length of day(hours)</th>
+            <th id="distance" scope="col">Distance from Sun(10<sup>6</sup>km)</th>
+            <th id="temperature" scope="col">Mean temperature(&deg;C)</th>
+            <th id="moons" scope="col">Number of moons</th>
+            <th id="notes" scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="Tplanet" colspan="2" rowspan="4" scope="rowgroup">Terrestrial planets</th>
+            <td headers="name Tplanet">Mercury</td>
+            <td headers="mass Tplanet">0.330</td>
+            <td headers="diameter Tplanet">4.879</td>
+            <td headers="density Tplanet">5.427</td>
+            <td headers="gravity Tplanet">3.7</td>
+            <td headers="length Tplanet">4222.6</td>
+            <td headers="distance Tplanet">57.9</td>
+            <td headers="temperature Tplanet">16.7</td>
+            <td headers="moons Tplanet">0</td>
+            <td headers="notes Tplanet">Closet to the sun</td>
+          </tr>
+
+        </tbody>
+      </table>
+  </body>
+</html>
