@@ -1,0 +1,94 @@
+/* h1{
+    color: blue;
+}
+h2{
+    background-color: blue;
+    color: white;
+}
+span{
+    font-size: 200%;
+} */
+
+/* span{
+    border: 1px solid black;
+}  This is Test 1*/
+
+
+/* span[class*=alert]{
+    border: 1px solid black;
+}
+
+span[class$=stop]{
+    background-color: red;
+}
+#special{
+    background-color: yellow;
+}
+span[class$=go]{
+    background-color: green;
+}  This is Test 2*/
+
+/* div > p:first-child::first-line{
+    color: red;
+    font-size: 150%;
+}
+div p a:visited{
+    color: green;
+}
+div p a:hover{
+    text-decoration: none;
+}
+div p a {
+    color: orange;
+}
+tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+  }
+
+  td,
+  th {
+    padding: 0.2em;
+    text-align: left;
+  }  This is Test 3*/
+
+
+/* h2 + p{
+    color: red;
+}
+
+.list > li{
+    list-style: none;
+    border-bottom: 1px solid gray;
+}  this is Test 4*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 0 0.5em 0;
+  }
+
+a {
+    border: 5px solid grey;
+    display: block;
+    padding: 0.5em;
+}
+ul li{
+    width: 1000px;
+}
+a[title]{
+    border-color: pink;
+}
+a[href*="contact"]{
+    border-color: orange;
+}
+a[href^="https"]{
+    border-color: green;
+}

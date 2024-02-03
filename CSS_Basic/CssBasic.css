@@ -1,0 +1,36 @@
+h1{
+    color: red;
+}
+
+p, li{
+    color: green;
+}
+li{
+    list-style-type: none;
+}
+.second{
+    color: blue;
+}
+
+p em{
+    font-size: 20px;
+}
+
+li#two{
+    color: orange;
+}
+
+h1 + p{
+    font-size: 200%;
+    
+}
+a:link{
+    color: pink;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+h1 + ul + p{
+    font-size: 30px;
+}
